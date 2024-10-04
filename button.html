@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"content="width=device-width,initial-scale=1.0">
+    <title>ChangeBackgroundColor</title>
+    <script>
+        function cbc(color)
+        {   
+            document.body.style.backgroundColor=color;
+            
+            
+        }
+        
+    </script>
+    <style>
+        .RED{
+            background-color: red;
+        }
+        .BLUE{
+            background-color: blue;
+        }
+        .GREEN{
+            background-color: green;
+        }
+        body:hover{
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <center>
+    <button onclick="cbc('red')" class="RED">RED</button>
+    <button onclick="cbc('blue')" class="BLUE">BLUE</button>
+    <button onclick="cbc('green')" class="GREEN">GREEN</button>
+    <button onclick="cbc('')">DEFAULT</button>
+    
+    </center>
+</body>
+</html>
